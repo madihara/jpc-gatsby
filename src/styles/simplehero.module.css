@@ -6,6 +6,7 @@
   flex-flow: row wrap;
   align-items: baseline;
   margin: 0;
+  padding: 1rem;
 }
 
 .banner {

@@ -30,7 +30,7 @@ const SimpleHero = () => {
     >
       <Fade left>
         <Banner
-          title="we specialize in commercial sewing"
+          title="we specialize in commercial sewing."
           info="Here at JPC we have been manufacturing quality industrial textiles since 1984. From large commercial production to custom projects, we have everything to make your next project a success."
         >
           <Link

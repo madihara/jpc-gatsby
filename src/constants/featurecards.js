@@ -1,9 +1,9 @@
 export default [
   {
-    icon: "../images/bluedelivery-truck.svg",
+    icon: "",
     title: "Commercial Production",
     info:
-      "heloo i am some text heloo i am some text heloo i am some text heloo i am some text heloo i am some text heloo i am some text heloo i am some text ",
+      "We specialize in large quantities of commercial production of products for some of the leading companies of the world.",
   },
   {
     icon: "../images/bluesewingmachine",

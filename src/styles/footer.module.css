@@ -1,36 +1,70 @@
 @import "./styles.css";
 
-.footer {
+.container {
+  width: 100%;
+  text-transform: uppercase;
   background-color: var(--primaryColor);
+}
+.footer {
   color: white;
   text-align: left;
   letter-spacing: 0.1rem;
   font-size: 0.9rem;
   display: flex;
   flex-flow: row wrap;
+  padding: 2rem 0;
+  justify-content: space-around;
 }
 
 .box {
-  flex-basis: 0;
+  padding: 0 2rem;
+  margin: 2rem 6rem;
+}
+
+.boxImg {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .links a {
   text-decoration: none;
-  text-transform: uppercase;
   color: white;
-  padding: 0.2rem 0rem;
-  margin: 0.7rem;
+  padding: 0rem 0rem;
+  margin: 0.4rem 0.7rem;
+  display: block;
 }
 
 .links a:hover {
-  color: white;
+  color: var(--accentColor);
 }
 
 .active {
   border-bottom: 2px solid var(--primaryColor);
 }
 
+.logo {
+  height: 8rem;
+  margin-right: 2rem;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 1rem;
+  border-bottom: 2px solid var(--accentColor);
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.3rem;
+}
+
 .copyright {
   color: white;
-  background-color: var(--accentColor);
+  padding: 1rem 0;
+  text-align: left;
+  text-transform: capitalize;
+  border-top: 2px solid var(--accentColor);
+  margin: 0 12rem;
+}
+
+.map {
+  height: 3rem;
 }

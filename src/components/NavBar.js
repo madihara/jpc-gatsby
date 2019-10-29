@@ -1,8 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 import links from "../constants/links"
-import contact from "../constants/contact"
-import logo from "../images/jpc-logo.png"
+import logo from "../images/jpc-logocir.png"
 import menubtn from "../images/hamburgermenu.svg"
 import phoneicon from "../images/call-answer.png"
 
@@ -46,7 +45,7 @@ const NavBar = () => {
           </ul>
         </div>
       </div>
-      <div className={styles.navSub}>
+      <div className={isOpen ? `${styles.hideSub}` : `${styles.navSub}`}>
         <img src={phoneicon} alt="phone" className={styles.phoneIcon}></img>
         &nbsp; +1 574 293 8030
       </div>

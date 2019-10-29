@@ -1,0 +1,31 @@
+@import "./styles.css";
+
+.errorpage {
+  background-color: var(--accentColor);
+  font-family: "Rubik", sans-serif;
+  color: white;
+  opacity: 0.8;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-flow: row wrap;
+  text-transform: uppercase;
+  height: 70vh;
+}
+
+.message {
+  font-size: 5rem;
+  text-align: center;
+  align-self: flex-end;
+  flex-basis: 100%;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  color: white;
+  padding: 1rem 3rem;
+  border: 1px solid white;
+}

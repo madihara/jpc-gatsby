@@ -1,0 +1,36 @@
+@import "./styles.css";
+
+.footer {
+  background-color: var(--primaryColor);
+  color: white;
+  text-align: left;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.box {
+  flex-basis: 0;
+}
+
+.links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 0.2rem 0rem;
+  margin: 0.7rem;
+}
+
+.links a:hover {
+  color: white;
+}
+
+.active {
+  border-bottom: 2px solid var(--primaryColor);
+}
+
+.copyright {
+  color: white;
+  background-color: var(--accentColor);
+}

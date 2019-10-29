@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap");
+
+:root {
+  --accentColor: #07b9ea;
+  --primaryColor: #0a1128;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: black;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

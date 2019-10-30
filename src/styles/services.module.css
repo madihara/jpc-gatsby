@@ -1,0 +1,7 @@
+@import "./styles.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}

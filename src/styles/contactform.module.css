@@ -1,0 +1,46 @@
+@import "./styles.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  flex-flow: row wrap;
+  background-color: white;
+}
+
+.box {
+  margin: 0 3rem;
+}
+
+.title {
+  color: var(--primaryColor);
+  padding: 0 1rem;
+}
+
+.form {
+}
+
+.formControl {
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #8b8b8b;
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 2rem 2rem 2rem 0;
+  width: 400px;
+}
+
+.text {
+  height: 200px;
+}
+
+.submit {
+  outline: none;
+  border: none;
+  background-color: var(--accentColor);
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  color: white;
+}

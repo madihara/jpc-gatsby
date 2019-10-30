@@ -1,0 +1,10 @@
+@import "./styles.css";
+
+.header {
+  color: white;
+  font-size: 3rem;
+  font-weight: normal;
+  text-transform: capitalize;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.3rem;
+}

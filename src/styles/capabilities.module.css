@@ -1,0 +1,46 @@
+@import "./styles.css";
+
+.container {
+  justify-content: space-between;
+  padding: 3rem;
+}
+.container ul {
+  padding: 0;
+  margin: 0;
+}
+
+.list {
+  list-style-type: none;
+  flex: 1;
+  margin: 0rem;
+  display: flex;
+}
+
+.listItem {
+  color: white;
+  padding: 1rem 0.6rem;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0.1rem;
+  background-color: var(--primaryColor);
+  width: 170px;
+}
+
+.info {
+  flex: 5;
+  padding: 1rem;
+  border-top: 4px solid var(--primaryColor);
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.active {
+  background-color: var(--accentColor);
+  border: 2px solid var(--accentColor);
+  border-left: 2px solid var(--primaryColor);
+}
+
+.img {
+  max-width: 600px;
+}

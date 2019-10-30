@@ -13,7 +13,7 @@
   display: flex;
   flex-flow: row wrap;
   padding: 2rem 0;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .box {
@@ -22,16 +22,21 @@
 }
 
 .boxImg {
-  padding: 0 2rem;
-  display: flex;
+  padding: 0 4rem;
+  display: block;
   align-items: center;
+}
+
+.boxImg h5 {
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 
 .links a {
   text-decoration: none;
   color: white;
-  padding: 0rem 0rem;
-  margin: 0.4rem 0.7rem;
+  margin: 0.4rem 0;
   display: block;
 }
 
@@ -44,8 +49,8 @@
 }
 
 .logo {
-  height: 8rem;
-  margin-right: 2rem;
+  height: 3rem;
+  margin: 0 0 1rem;
 }
 
 .title {
@@ -54,6 +59,7 @@
   border-bottom: 2px solid var(--accentColor);
   margin-bottom: 1.2rem;
   padding-bottom: 0.3rem;
+  padding-right: 3rem;
 }
 
 .copyright {
@@ -63,8 +69,4 @@
   text-transform: capitalize;
   border-top: 2px solid var(--accentColor);
   margin: 0 12rem;
-}
-
-.map {
-  height: 3rem;
 }

@@ -4,12 +4,12 @@ export default [
     text: "home",
   },
   {
-    path: "/capabilities",
-    text: "capabilities",
-  },
-  {
     path: "/services",
     text: "services",
+  },
+  {
+    path: "/capabilities",
+    text: "capabilities",
   },
 
   {

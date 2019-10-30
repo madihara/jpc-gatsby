@@ -1,6 +1,6 @@
 export default [
   {
-    icon: "..images/jpc-logocir.png",
+    icon: "../images/assets/bluedelivery-truck.svg",
     title: "logo",
   },
   {

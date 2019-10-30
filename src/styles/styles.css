@@ -21,7 +21,6 @@ body {
   line-height: 1.2;
   color: var(--primaryColor);
   min-width: 100vw;
-  background-color: var(--primaryGrey);
 }
 *,
 *:before,

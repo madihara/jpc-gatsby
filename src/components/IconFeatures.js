@@ -29,21 +29,25 @@ const IconFeatures = () => {
           <FeatureCard
             icon={image1}
             title="Commercial Production"
-            info="text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible its unbelievable"
+            info="text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible its unbelievable a good girl she smells horrible its unbelievable
+            text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horriblea good girl she smells horrible its unbelievable
+            text is she sick how are her poops she doesn't really  she smells horrible"
           ></FeatureCard>
         </div>
         <div className={styles.card}>
           <FeatureCard
             icon={image2}
             title="Custom Projects"
-            info="text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible its unbelievable"
+            info="text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible its unbelievable a good girl she smells horrible its unbelievable
+            text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible"
           ></FeatureCard>
         </div>
         <div className={styles.card}>
           <FeatureCard
             icon={image3}
             title="3D Cad Design"
-            info="text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible its unbelievable"
+            info="text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible its unbelievabletext is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible its unbelievable
+            text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible "
           ></FeatureCard>
         </div>
       </div>

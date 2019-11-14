@@ -32,7 +32,7 @@ const capabilities = () => {
     <Layout>
       <LazyHero
         imageSrc={heroimg}
-        opacity="0.5"
+        opacity="0.7"
         color="#0a1128"
         parallaxOffset="1"
         minHeight="45vh"
@@ -42,20 +42,15 @@ const capabilities = () => {
           <HeroHeader title="manufacturing capabilities" />
         </Zoom>
       </LazyHero>
-      <div className={styles.box}>
-        <div className={styles.container}>
-          {cards.map(item => {
-            return (
-              <div className={styles.card}>
-                <FeatureCard
-                  icon={item.icon}
-                  title={item.title}
-                  info={item.info}
-                ></FeatureCard>
-              </div>
-            )
-          })}
-        </div>
+      <div>
+        <h1> Many Capabilties</h1>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
       </div>
     </Layout>
   )

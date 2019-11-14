@@ -1,7 +1,7 @@
 import React from "react"
 import LazyHero from "react-lazy-hero"
 
-import heroimg from "../images/arts-and-crafts-close-up-colors-2973392.jpg"
+import heroimg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
 
 import styles from "../styles/largeimage.module.css"
 
@@ -9,7 +9,7 @@ const LargeImage = () => {
   return (
     <LazyHero
       imageSrc={heroimg}
-      opacity="0.5"
+      opacity="0.9"
       color="#ececec"
       parallaxOffset="1"
       minHeight="65vh"

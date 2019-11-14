@@ -1,14 +1,21 @@
 @import "./styles.css";
 
+.services {
+  margin: 3rem 0;
+}
+
 .container {
   display: flex;
-  justify-content: space-between;
-  padding: 3rem;
+  justify-content: space-around;
+  padding: 0rem 3rem;
+}
+.image-box {
 }
 
 .image {
-  max-width: 45vw;
+  max-width: 40vw;
 }
 
 .info {
+  margin: 0 9rem;
 }

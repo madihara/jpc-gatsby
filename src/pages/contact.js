@@ -11,7 +11,7 @@ const contact = () => (
   <Layout>
     <LazyHero
       imageSrc={heroimg}
-      opacity="0.5"
+      opacity="0.7"
       color="#0a1128"
       parallaxOffset="1"
       minHeight="45vh"

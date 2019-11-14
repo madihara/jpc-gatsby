@@ -2,7 +2,7 @@
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 2rem;
   flex-flow: row wrap;
   background-color: white;
@@ -30,7 +30,7 @@
   font-size: 1rem;
   padding: 1rem;
   margin: 1rem 0rem 1rem;
-  width: 400px;
+  width: 580px;
 }
 
 .text {

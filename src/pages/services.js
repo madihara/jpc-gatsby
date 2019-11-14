@@ -13,7 +13,7 @@ const services = () => (
   <Layout>
     <LazyHero
       imageSrc={heroimg}
-      opacity="0.5"
+      opacity="0.7"
       color="#0a1128"
       parallaxOffset="1"
       minHeight="45vh"
@@ -25,25 +25,50 @@ const services = () => (
       </Zoom>
     </LazyHero>
 
-    <section className={styles.services}></section>
-    <div className={styles.container}>
-      <div className={styles.imageBox}>
-        <img
-          src={image1}
-          alt="sewing machine vector"
-          className={styles.image}
-        />
-        <div className={styles.info}>Info</div>
+    <section className={styles.services}>
+      <div className={styles.container}>
+        <div className={styles.imageBox}>
+          <img
+            src={image1}
+            alt="sewing machine vector"
+            className={styles.image}
+          />
+        </div>
+        <div className={styles.info}>
+          <h1>Commercial Production</h1>
+          <span>text</span>
+        </div>
       </div>
-    </div>
-    <div className={styles.container}>
-      <div className={styles.image}>Image</div>
-      <div className={styles.info}>Info</div>
-    </div>
-    <div className={styles.container}>
-      <div className={styles.info}>Info</div>
-      <div className={styles.image}>Image</div>
-    </div>
+
+      <div className={styles.container}>
+        <div className={styles.info}>
+          <h1>Custom Projects</h1>
+          <span>text</span>
+        </div>
+
+        <div className={styles.image}>
+          <img
+            src={image1}
+            alt="sewing machine vector"
+            className={styles.image}
+          />
+        </div>
+      </div>
+
+      <div className={styles.container}>
+        <div className={styles.imageBox}>
+          <img
+            src={image1}
+            alt="sewing machine vector"
+            className={styles.image}
+          />
+        </div>
+        <div className={styles.info}>
+          <h1>3D Cad Design</h1>
+          <span>text</span>
+        </div>
+      </div>
+    </section>
   </Layout>
 )
 

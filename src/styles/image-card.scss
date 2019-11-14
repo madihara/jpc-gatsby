@@ -1,7 +1,7 @@
 .menu-item {
   min-width: 400px;
-  height: 240px;
-  flex: 1 1 auto;
+  height: 280px;
+  flex: 1 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,7 +23,8 @@
   }
 
   &.large {
-    height: 308px;
+    height: 320px;
+    flex: 1 0 48%;
   }
 
   &:first-child {

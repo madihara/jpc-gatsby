@@ -2,7 +2,7 @@
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 2rem;
   flex-flow: row wrap;
   background-color: white;
@@ -10,11 +10,13 @@
 
 .box {
   margin: 0 3rem;
+  padding: 1rem;
+  background-color: white;
 }
 
 .title {
   color: var(--primaryColor);
-  padding: 0 1rem;
+  padding: 0 1rem 0 0;
 }
 
 .form {
@@ -23,12 +25,11 @@
 .formControl {
   outline: none;
   resize: none;
-  border: none;
-  border-bottom: 1px solid #8b8b8b;
+  border: 1px solid #8b8b8b;
   margin: 0.3rem 0;
   font-size: 1rem;
   padding: 1rem;
-  margin: 2rem 2rem 2rem 0;
+  margin: 1rem 0rem 1rem;
   width: 400px;
 }
 

@@ -65,8 +65,9 @@
 .copyright {
   color: white;
   padding: 1rem 0;
-  text-align: left;
+  text-align: center;
   text-transform: capitalize;
   border-top: 2px solid var(--accentColor);
   margin: 0 12rem;
+  font-size: 0.5rem;
 }

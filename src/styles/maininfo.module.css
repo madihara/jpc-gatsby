@@ -1,8 +1,35 @@
 @import "./styles.css";
 
 .container {
-  padding: 3rem;
-  font-size: 4rem;
+  padding: 8rem 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primaryColor);
+  color: white;
+}
+
+.info {
+  padding: 0 8rem;
+}
+.title {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.subTitle {
+  font-weight: normal;
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+
+.subText {
+  font-size: 1rem;
+  padding: 0.3rem 0;
+}
+
+.imagebox {
+  padding: 0 2rem;
+}
+.image {
+  width: 45vw;
 }

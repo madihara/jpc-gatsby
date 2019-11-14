@@ -1,46 +1,64 @@
 @import "./styles.css";
 
+.box {
+  background-color: #ececec;
+}
+
 .container {
-  justify-content: space-between;
-  padding: 3rem;
-}
-.container ul {
-  padding: 0;
-  margin: 0;
-}
-
-.list {
-  list-style-type: none;
-  flex: 1;
-  margin: 0rem;
   display: flex;
+  justify-content: center;
+  padding: 2rem;
+  flex-flow: row wrap;
 }
 
-.listItem {
-  color: white;
-  padding: 1rem 0.6rem;
-  font-weight: normal;
-  text-align: center;
-  margin: 0 0.1rem;
-  background-color: var(--primaryColor);
-  width: 170px;
-}
+.card {
+  /*padding: 2rem;*/
+  font-size: 0.8rem;
+  width: 30%;
+  min-width: 350px;
+  border-radius: 3px;
 
-.info {
-  flex: 5;
-  padding: 1rem;
-  border-top: 4px solid var(--primaryColor);
-  display: flex;
-  justify-content: space-between;
+  margin: 1rem;
   background-color: white;
 }
 
-.active {
-  background-color: var(--accentColor);
-  border: 2px solid var(--accentColor);
-  border-left: 2px solid var(--primaryColor);
+.textBox {
+  padding: 2rem;
 }
 
-.img {
-  max-width: 600px;
+.cardTitle {
+  font-weight: normal;
+  font-size: 1.2rem;
+  padding: 1rem 0 0.5rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--accentColor);
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.05rem;
+}
+
+.info {
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+}
+
+.photo {
+  width: 100%;
+  height: 20%;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  padding: 0.6rem 1rem;
+  background-color: var(--accentColor);
+  color: white;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
 }

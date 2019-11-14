@@ -2,8 +2,7 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import links from "../constants/links"
 import logo from "../images/jpc-logocir.png"
-import menubtn from "../images/hamburgermenu.svg"
-import phoneicon from "../images/call-answer.png"
+import menubtn from "../images/icons/menu-button.svg"
 
 import styles from "../styles/navbar.module.css"
 
@@ -25,7 +24,7 @@ const NavBar = () => {
             <img src={menubtn} className={styles.logoIcon} alt="menubtn" />
           </button>
         </div>
-        <div>
+        <div className={styles.fixed}>
           <ul
             className={
               isOpen
@@ -44,10 +43,6 @@ const NavBar = () => {
             })}
           </ul>
         </div>
-      </div>
-      <div className={isOpen ? `${styles.hideSub}` : `${styles.navSub}`}>
-        <img src={phoneicon} alt="phone" className={styles.phoneIcon}></img>
-        &nbsp; +1 574 293 8030
       </div>
     </nav>
   )

@@ -24,7 +24,7 @@ const SimpleHero = () => {
       opacity="0.5"
       color="#0a1128"
       parallaxOffset="1"
-      minHeight="83vh"
+      minHeight="100vh"
       isCentered={false}
       className="hero-container"
     >

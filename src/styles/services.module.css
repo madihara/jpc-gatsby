@@ -2,6 +2,13 @@
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 3rem;
+}
+
+.image {
+  max-width: 45vw;
+}
+
+.info {
 }

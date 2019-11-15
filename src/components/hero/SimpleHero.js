@@ -1,7 +1,6 @@
 import React from "react"
 import LazyHero from "react-lazy-hero"
 import heroimg from "../../images/adult-analogue-indoors-2249290.jpg"
-import Zoom from "react-reveal"
 
 import { Link } from "gatsby"
 

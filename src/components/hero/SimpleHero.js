@@ -1,11 +1,11 @@
 import React from "react"
 import LazyHero from "react-lazy-hero"
-import heroimg from "../images/adult-analogue-indoors-2249290.jpg"
+import heroimg from "../../images/adult-analogue-indoors-2249290.jpg"
 import Zoom from "react-reveal"
 
 import { Link } from "gatsby"
 
-import styles from "../styles/simplehero.module.css"
+import styles from "./simplehero.module.css"
 
 const Banner = ({ title, info, children }) => {
   return (

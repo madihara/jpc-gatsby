@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/Layout"
 import LazyHero from "react-lazy-hero"
-import HeroHeader from "../components/HeroHeader"
+import HeroHeader from "../components/hero/HeroHeader"
 import { Zoom, Fade } from "react-reveal"
 
-import ImageGallery from "../components/ImageGallery"
+import ImageGallery from "../components/portfolio/ImageGallery"
 
 import heroimg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
 

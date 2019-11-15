@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import data from "../constants/featurecards"
 import LazyHero from "react-lazy-hero"
-import HeroHeader from "../components/HeroHeader"
+import HeroHeader from "../components/hero/HeroHeader"
 import Zoom from "react-reveal"
 import cards from "../constants/featurecards"
 
@@ -10,7 +10,7 @@ import photo from "../images/fabrics-factory-industry-236748.jpg"
 
 import heroimg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
 
-import styles from "../styles/capabilities.module.css"
+import styles from "./styles-pages/capabilities.module.css"
 
 const FeatureCard = ({ icon, title, info }) => {
   return (

@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import links from "../constants/links"
-import logo from "../images/jpc-logocir.png"
-import menubtn from "../images/icons/menu-button.svg"
+import links from "../../constants/links"
+import logo from "../../images/jpc-logocir.png"
+import menubtn from "../../images/icons/menu-button.svg"
 
 import styles from "./navbar.module.css"
 

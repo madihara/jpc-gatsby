@@ -1,12 +1,12 @@
 import React from "react"
 import Fade from "react-reveal"
 
-import cards from "../constants/featurecards"
-import image1 from "../images/icons/logistics-delivery-truck-and-clock.svg"
-import image2 from "../images/icons/sewing-machine.svg"
-import image3 from "../images/icons/3d-printing-software.svg"
+import cards from "../../constants/featurecards"
+import image1 from "../../images/icons/logistics-delivery-truck-and-clock.svg"
+import image2 from "../../images/icons/sewing-machine.svg"
+import image3 from "../../images/icons/3d-printing-software.svg"
 
-import styles from "../styles/iconfeatures.module.css"
+import styles from "./iconfeatures.module.css"
 
 const FeatureCard = ({ icon, title, info }) => {
   return (

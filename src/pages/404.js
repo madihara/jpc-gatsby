@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { Link } from "gatsby"
 
-import styles from "../styles/error.module.css"
+import styles from "./styles-pages/error.module.css"
 
 const error = () => (
   <Layout>

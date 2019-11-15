@@ -1,6 +1,6 @@
 import React from "react"
 
-import "../styles/image-card.scss"
+import "./image-card.scss"
 
 const ImageCard = ({ title, imageUrl, size }) => {
   return (

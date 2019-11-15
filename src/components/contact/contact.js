@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/Layout"
+import Layout from "../Layout"
 import LazyHero from "react-lazy-hero"
 import HeroHeader from "../components/HeroHeader"
 import Zoom from "react-reveal"

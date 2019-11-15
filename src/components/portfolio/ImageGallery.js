@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import ImageCard from "./ImageCard"
 
-import "../styles/image-gallery.scss"
+import "./image-gallery.scss"
 
 export default class ImageGallery extends Component {
   constructor() {

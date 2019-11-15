@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import links from "../constants/links"
+import links from "../../constants/links"
 
-import logo from "../images/jpc-logocir.png"
+import logo from "../../images/jpc-logocir.png"
 
 import styles from "./footer.module.css"
 

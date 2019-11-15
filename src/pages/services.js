@@ -1,13 +1,13 @@
 import React from "react"
 import Layout from "../components/Layout"
 import LazyHero from "react-lazy-hero"
-import HeroHeader from "../components/HeroHeader"
+import HeroHeader from "../components/hero/HeroHeader"
 import Zoom from "react-reveal"
 
 import heroimg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
 import image1 from "../images/fabrics-factory-industry-236748.jpg"
 
-import styles from "../styles/services.module.css"
+import styles from "./styles-pages/services.module.css"
 
 const services = () => (
   <Layout>

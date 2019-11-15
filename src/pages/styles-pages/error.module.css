@@ -1,5 +1,3 @@
-@import "./styles.css";
-
 .errorpage {
   background-color: var(--accentColor);
   font-family: "Rubik", sans-serif;

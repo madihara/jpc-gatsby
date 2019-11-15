@@ -1,7 +1,7 @@
 import React from "react"
-import image1 from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
+import image1 from "../../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
 
-import styles from "../styles/maininfo.module.css"
+import styles from "./maininfo.module.css"
 
 const MainInfo = () => {
   return (

@@ -3,7 +3,7 @@ import LazyHero from "react-lazy-hero"
 
 import heroimg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
 
-import styles from "../styles/largeimage.module.css"
+import styles from "./largeimage.module.css"
 
 const LargeImage = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react"
 import LazyHero from "react-lazy-hero"
 import heroimg from "../images/adult-analogue-indoors-2249290.jpg"
-import Fade from "react-reveal"
+import Zoom from "react-reveal"
 
 import { Link } from "gatsby"
 
@@ -28,25 +28,20 @@ const SimpleHero = () => {
       isCentered={false}
       className="hero-container"
     >
-      <Fade left>
-        <Banner
-          title="we specialize in commercial sewing."
-          info="Here at JPC we have been manufacturing quality industrial textiles since 1984. From large commercial production to custom projects, we have everything to make your next project a success."
+      <Banner
+        title="we specialize in commercial sewing."
+        info="Here at JPC we have been manufacturing quality industrial textiles since 1984. From large commercial production to custom projects, we have everything to make your next project a success."
+      >
+        <Link
+          to="/capabilities"
+          className={`${styles.heroBtn} ${styles.btnBlue}`}
         >
-          <Link
-            to="/capabilities"
-            className={`${styles.heroBtn} ${styles.btnBlue}`}
-          >
-            Learn More
-          </Link>
-          <Link
-            to="/contact"
-            className={`${styles.heroBtn} ${styles.btnWhite}`}
-          >
-            Contact Us
-          </Link>
-        </Banner>
-      </Fade>
+          Learn More
+        </Link>
+        <Link to="/contact" className={`${styles.heroBtn} ${styles.btnWhite}`}>
+          Contact Us
+        </Link>
+      </Banner>
     </LazyHero>
   )
 }

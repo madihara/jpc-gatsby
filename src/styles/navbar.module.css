@@ -49,10 +49,13 @@
   height: 0;
   overflow: hidden;
   z-index: 205;
+  display: block;
 }
 
 .showNav {
-  height: 200px;
+  height: 120vh;
+  width: 100vw;
+  background-color: red;
 }
 
 .navlinks a {

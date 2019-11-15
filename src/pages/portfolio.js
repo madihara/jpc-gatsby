@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import LazyHero from "react-lazy-hero"
 import HeroHeader from "../components/HeroHeader"
-import Zoom from "react-reveal"
+import { Zoom, Fade } from "react-reveal"
 
 import ImageGallery from "../components/ImageGallery"
 
@@ -24,7 +24,9 @@ const portfolio = () => {
           <HeroHeader title="Recent Projects"></HeroHeader>
         </Zoom>
       </LazyHero>
-      <ImageGallery />
+      <Fade up>
+        <ImageGallery />
+      </Fade>
     </Layout>
   )
 }

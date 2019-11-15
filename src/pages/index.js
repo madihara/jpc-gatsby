@@ -1,9 +1,8 @@
 import React from "react"
-import SimpleHero from "../components/SimpleHero"
-import IconFeatures from "../components/IconFeatures"
-import MainInfo from "../components/MainInfo"
+import SimpleHero from "../components/hero/SimpleHero"
+import IconFeatures from "../components/homepage/IconFeatures"
+import MainInfo from "../components/homepage/MainInfo"
 import LargeImage from "../components/LargeImage"
-import TrustedBy from "../components/TrustedBy"
 
 import "../styles/styles.css"
 

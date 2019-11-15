@@ -4,7 +4,7 @@ import links from "../constants/links"
 import logo from "../images/jpc-logocir.png"
 import menubtn from "../images/icons/menu-button.svg"
 
-import styles from "../styles/navbar.module.css"
+import styles from "./navbar.module.css"
 
 const NavBar = () => {
   const [isOpen, setNav] = useState(false)

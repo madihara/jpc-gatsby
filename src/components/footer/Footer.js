@@ -1,13 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import links from "../constants/links"
-import data from "../constants/contact"
-import logo from "../images/jpc-logocir.png"
-import phoneicon from "../images/icons/call-answer.png"
-import mapicon from "../images/icons/maps-and-flags.svg"
-import emailicon from "../images/icons/e-mail-envelope.svg"
 
-import styles from "../styles/footer.module.css"
+import logo from "../images/jpc-logocir.png"
+
+import styles from "./footer.module.css"
 
 const Footer = () => {
   return (

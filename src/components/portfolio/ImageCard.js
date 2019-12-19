@@ -2,7 +2,7 @@ import React from "react"
 
 import "./image-card.scss"
 
-const ImageCard = ({ title, imageUrl, size }) => {
+const ImageCard = ({ title, imageUrl, size, features }) => {
   return (
     <div className={`${size} menu-item`}>
       <div
@@ -15,15 +15,20 @@ const ImageCard = ({ title, imageUrl, size }) => {
         <h1 className="title">{title.toUpperCase()}</h1>
         <span className="subtitle">Learn More</span>
         <span className="features hidden">
-          <ul>
-            <li>feature 1</li>
-            <li>feature 2</li>
-            <li>feature 3</li>
+          {/*} <ul>
+            {features.map((item, index) => {
+              <li key={index}>
+                {item.text}
+              </li>
+            })}
           </ul>
+          {*/}
         </span>
       </div>
     </div>
   )
 }
+
+
 
 export default ImageCard

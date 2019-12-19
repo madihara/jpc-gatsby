@@ -1,5 +1,8 @@
 import React from "react"
 
+import phoneIcon from '../../images/icons/call-answer (2).svg';
+import emailIcon from '../../images/icons/e-mail-envelope (1).svg';
+
 import styles from "./contactform.module.css"
 
 const ContactForm = () => {
@@ -52,8 +55,12 @@ const ContactForm = () => {
             width="400"
             height="300"
             frameborder="0"
-            allowfullscreen=""
-          ></iframe>
+          ></iframe><br></br>
+          <div className={styles.contact}>
+            <img src={phoneIcon} className={styles.icon} /> 574 xxx xxxx <br>
+            </br>
+            <img src={emailIcon} className={styles.icon} /> jpccustom@gmail.com
+          </div>
         </div>
       </section>
     </>

@@ -1,4 +1,5 @@
 import React from "react"
+import { Zoom } from "react-reveal"
 
 import image1 from "../../images/icons/logistics-delivery-truck-and-clock.svg"
 import image2 from "../../images/icons/sewing-machine.svg"
@@ -21,33 +22,32 @@ const FeatureCard = ({ icon, title, info }) => {
 const IconFeatures = () => {
   return (
     <div className={styles.box}>
-      <div className={styles.container}>
-        <div className={styles.card}>
-          <FeatureCard
-            icon={image1}
-            title="Commercial Production"
-            info="text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible its unbelievable a good girl she smells horrible its unbelievable
-            text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horriblea good girl she smells horrible its unbelievable
-            text is she sick how are her poops she doesn't really  she smells horrible"
-          ></FeatureCard>
+      <Zoom>
+        <div className={styles.container}>
+          <div className={styles.card}>
+            <FeatureCard
+              icon={image1}
+              title="Commercial Production"
+              info="JPC produces a variety of textiles __ that lead our customers to come back again and again. We work with brands across the country to provide quality products make of top caliber equipment and worksmanship. Attention to detail and experienced staff means the quality of our textiles is consistent and always guaranteed."
+            ></FeatureCard>
+          </div>
+          <div className={styles.card}>
+            <FeatureCard
+              icon={image2}
+              title="Custom Projects"
+              info="We want to be the first you call for all your custom needs. We know that no matter how big or small a project is, it needs to be done right."
+            ></FeatureCard>
+          </div>
+          <div className={styles.card}>
+            <FeatureCard
+              icon={image3}
+              title="3D Cad Design"
+              info="Our 3D CAD *****MACHINE****??? Need info on this.
+              text text text  text text text  text text text  text text text  text text text  text text text  "
+            ></FeatureCard>
+          </div>
         </div>
-        <div className={styles.card}>
-          <FeatureCard
-            icon={image2}
-            title="Custom Projects"
-            info="text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible its unbelievable a good girl she smells horrible its unbelievable
-            text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible"
-          ></FeatureCard>
-        </div>
-        <div className={styles.card}>
-          <FeatureCard
-            icon={image3}
-            title="3D Cad Design"
-            info="text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible its unbelievabletext is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible its unbelievable
-            text is she sick how are her poops she doesn't really poop she just lies there like a good girl she smells horrible "
-          ></FeatureCard>
-        </div>
-      </div>
+      </Zoom>
     </div>
   )
 }

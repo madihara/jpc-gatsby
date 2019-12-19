@@ -8,14 +8,15 @@ export default [
     text: "services",
   },
   {
+    path: "/portfolio",
+    text: "portfolio",
+  },
+  {
     path: "/capabilities",
     text: "capabilities",
   },
 
-  {
-    path: "/portfolio",
-    text: "portfolio",
-  },
+
 
   {
     path: "/contact",

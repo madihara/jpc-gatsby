@@ -1,4 +1,5 @@
 import React from "react"
+import { Fade } from "react-reveal"
 import image1 from "../../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
 
 import styles from "./maininfo.module.css"
@@ -27,9 +28,12 @@ const MainInfo = () => {
           fact, it will be Occidental.
         </p>
       </div>
-      <div className={styles.imagebox}>
-        <img src={image1} alt="sewing" className={styles.image}></img>
-      </div>
+
+      <Fade right>
+        <div className={styles.imagebox}>
+          <img src={image1} alt="sewing" className={styles.image}></img>
+        </div>
+      </Fade>
     </div>
   )
 }

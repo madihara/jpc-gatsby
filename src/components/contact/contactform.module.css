@@ -3,21 +3,21 @@
   justify-content: center;
   padding: 2rem;
   flex-flow: row wrap;
-  background-color: white;
+  background-color:#ececec;
 }
 
 .box {
   margin: 0 3rem;
   padding: 1rem;
   background-color: white;
+  border-radius: 10px;
 }
+
+
 
 .title {
   color: var(--primaryColor);
   padding: 0 1rem 0 0;
-}
-
-.form {
 }
 
 .formControl {
@@ -28,7 +28,11 @@
   font-size: 1rem;
   padding: 1rem;
   margin: 1rem 0rem 1rem;
-  width: 580px;
+  width: 540px;
+}
+
+.flex{
+  display: flex;
 }
 
 .text {
@@ -42,4 +46,15 @@
   text-transform: uppercase;
   padding: 0.5rem 1rem;
   color: white;
+}
+
+.contact{
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.icon{
+  height: 15px;
 }

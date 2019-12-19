@@ -6,13 +6,24 @@ import { Zoom, Fade } from "react-reveal"
 
 import ImageGallery from "../components/portfolio/ImageGallery"
 
-import heroimg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
+import heroImg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
+
+
 
 const portfolio = () => {
+  var style = {
+    color: 'black',
+    fontSize: 20,
+    textAlign: 'center',
+    margin: '10rem',
+    paddingRight: '10rem',
+    paddingLeft: '10rem'
+  }
+
   return (
     <Layout>
       <LazyHero
-        imageSrc={heroimg}
+        imageSrc={heroImg}
         opacity="0.7"
         color="#0a1128"
         parallaxOffset="1"
@@ -26,6 +37,11 @@ const portfolio = () => {
       </LazyHero>
       <Fade up>
         <ImageGallery />
+      </Fade>
+      <Fade>
+        <div style={style}>
+          This is just a small sample of the work we can do. With our 3D CAD Image Scanner, we can have precise measurements of anything quickly.
+        </div>
       </Fade>
     </Layout>
   )

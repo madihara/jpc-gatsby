@@ -12,22 +12,26 @@ export default class ImageGallery extends Component {
         {
           title: "boat covers",
           imageUrl:
-            "https://coverquest-catalog.imgix.net/uploads/media/2018/03/1521752028-westland-t-top-boat-cover.lg.jpg?crop=entropy&fit=clip&h=400&w=600&wm=jpg&q=90",
+            "https://i.imgur.com/K1h8dEI.jpg",
           id: 1,
-          linkUrl: "shop/hats",
+          features: {
+            1: "durable",
+            2: "weather resistant",
+          }
         },
 
+
         {
-          title: "PCA Hose",
+          title: "PCA Layflat Ducting",
           imageUrl:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAK0F1ibo4Py2SONhlCbK0Awz3e6NjWVGXDx4kRMZ2ArH7XcIq&s",
+            "https://i.imgur.com/FvlR0yo.jpg",
           id: 3,
           linkUrl: "shop/sneakers",
         },
         {
-          title: "clear curtains",
+          title: "boat interior",
           imageUrl:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAK0F1ibo4Py2SONhlCbK0Awz3e6NjWVGXDx4kRMZ2ArH7XcIq&s",
+            "https://lh3.googleusercontent.com/izlcRo2qS6q88aWuj4983UcxGXtBEUclxl2SLUBgUGgM8w6IEuH19kxe96QwVJVYIDbBFxKNwSF-MEOxdMtRI1wyBKQ_-YITGvzAH_v0WViS4GxytlHct67wKTstfo1HlrVA4GgmLQ=w2400",
           id: 4,
           linkUrl: "shop/jackets",
         },
@@ -48,31 +52,31 @@ export default class ImageGallery extends Component {
           linkUrl: "shop/mens",
         },
         {
-          title: "boat covers",
+          title: "marine mat",
           imageUrl:
-            "https://coverquest-catalog.imgix.net/uploads/media/2018/03/1521752028-westland-t-top-boat-cover.lg.jpg?crop=entropy&fit=clip&h=400&w=600&wm=jpg&q=90",
+            "https://lh3.googleusercontent.com/JUbMQkstcipxotZGfQTN-2H0vNLy3GSv_Eu-fQmAH6PDBtaTZdaOI3yqTNyil7jJGXQe8J6dWBlN0uGDyYk0YfxC91iT-L21jKKGGsJh1kAgxw0rUOJ19B8lx1Fk6Sym0iRwnAW_PA=w2400",
           id: 7,
           linkUrl: "shop/hats",
         },
 
         {
-          title: "PCA Hose",
+          title: "JetSki Covers",
           imageUrl:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAK0F1ibo4Py2SONhlCbK0Awz3e6NjWVGXDx4kRMZ2ArH7XcIq&s",
+            "https://lh3.googleusercontent.com/Jp3fRbzUhuRPvlenmczP_TpKMLG0y1MfBv0kjPgmfLNfA2YRqINHXRu8FE8ClAvBNcppG0Q8ljDubU_7yQjMPI8_XRNV2wYDqTF5kk2EssOxqpx52ZBjCShelUKaCsDIIX9iNOHfYQ=w2400",
           id: 8,
           linkUrl: "shop/sneakers",
         },
         {
-          title: "clear curtains",
+          title: "outdoor equipment",
           imageUrl:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAK0F1ibo4Py2SONhlCbK0Awz3e6NjWVGXDx4kRMZ2ArH7XcIq&s",
+            "https://lh3.googleusercontent.com/z2g9Cnoo9XqXBRF7dzHF9MROS3eLfbJcZSSXjE1eLOu4ILtJivLT6EFr8oSRZ5Nan_zqXRIhfFZZ_sJtUxxURbZXO2pmupYLOW0-ejmgKR0NHqu2VGOrP7oSqZxs1wDNV7NVOy94HA=w2400",
           id: 9,
           linkUrl: "shop/jackets",
         },
         {
-          title: "motorcycle covers",
+          title: "lift curtains",
           imageUrl:
-            "https://www.covercraft.com/images/products/hero/custom-fit-motorcycle-covers-for-harley-davidson_psmh_silver_main1.jpg",
+            "https://lh3.googleusercontent.com/jxgjCZ34yPjwhxYsdSmPDhRjRqzyV1JGHSsrIuBzuWUaB2nbMfpYfcgYOwX0QSDPKWX5og2EYDI3EkNJe1SqK69dq7mIG0YcAN183EpbP_RwiJRgpWmuw5_5zHB6KX8cQuhkI00dCw=w2400",
           size: "large",
           id: 10,
           linkUrl: "shop/womens",
@@ -80,7 +84,7 @@ export default class ImageGallery extends Component {
         {
           title: "bimini tops",
           imageUrl:
-            "https://www.paulscanvas.com/wp-content/uploads/2016/11/boats-with-towers-15.jpg",
+            "https://lh3.googleusercontent.com/Wpdk_rmPMhlnZ_WAhCo3-bAlV93tAv5jXzkC10nM-tzwX95FjzA7ePNWlbLMp05taNFb8FOcm7zn9DFWj4kIWCPoMFB3rA5fGUEZH9QqUxQL02gHtK_6Jjdf2JNrwKDaKimSnkhskA=w2400",
           size: "large",
           id: 11,
           linkUrl: "shop/mens",

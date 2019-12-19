@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import links from "../../constants/links"
 import logo from "../../images/jpc-logocir.png"
-import menubtn from "../../images/icons/menu-button.svg"
+import menuBtn from "../../images/icons/menu-button.svg"
 
 import styles from "./navbar.module.css"
 
@@ -17,19 +17,19 @@ const NavBar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <div className={styles.navCenter}>
+      <section className={styles.navCenter}>
         <div className={styles.navHeader}>
           <img src={logo} alt="jpc" className={styles.logo} />
-          <button className={styles.logoBtn} onClick={toggleNav}>
-            <img src={menubtn} className={styles.logoIcon} alt="menubtn" />
+          <button className={styles.menuBtn} onClick={toggleNav}>
+            <img src={menuBtn} className={styles.logoIcon} alt="menu button" />
           </button>
         </div>
         <div className={styles.fixed}>
           <ul
             className={
               isOpen
-                ? `${styles.navlinks} ${styles.showNav}`
-                : `${styles.navlinks}`
+                ? `${styles.navLinks} ${styles.showNav}`
+                : `${styles.navLinks}`
             }
           >
             {links.map((item, index) => {
@@ -43,9 +43,9 @@ const NavBar = () => {
             })}
           </ul>
         </div>
-      </div>
+      </section>
     </nav>
   )
 }
 
-export default NavBar
+export default NavBar;

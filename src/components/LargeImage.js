@@ -12,7 +12,7 @@ const LargeImage = () => {
       opacity="0.9"
       color="#ececec"
       parallaxOffset="1"
-      minHeight="65vh"
+      minHeight="45vh"
       isCentered={true}
       className="hero-container"
     >

@@ -5,10 +5,8 @@
 .container {
   display: flex;
   justify-content: space-around;
-  padding: 0rem 3rem;
+  padding: 1.5rem 3rem;
   flex-flow: row wrap;
-}
-.image-box {
 }
 
 .image {

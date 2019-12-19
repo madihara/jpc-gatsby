@@ -1,9 +1,9 @@
 import React from "react"
-import Layout from "../Layout"
+import Layout from "../components/Layout"
 import LazyHero from "react-lazy-hero"
-import HeroHeader from "../components/HeroHeader"
+import HeroHeader from "../components/hero/HeroHeader"
 import Zoom from "react-reveal"
-import ContactForm from "../components/ContactForm"
+import ContactForm from "../components/contact/ContactForm"
 
 import heroimg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
 

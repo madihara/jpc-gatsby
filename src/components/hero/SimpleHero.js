@@ -1,6 +1,7 @@
 import React from "react"
 import LazyHero from "react-lazy-hero"
-import heroimg from "../../images/adult-analogue-indoors-2249290.jpg"
+
+import heroImg from "../../images/adult-analogue-indoors-2249290.jpg"
 
 import { Link } from "gatsby"
 
@@ -19,7 +20,7 @@ const Banner = ({ title, info, children }) => {
 const SimpleHero = () => {
   return (
     <LazyHero
-      imageSrc={heroimg}
+      imageSrc={heroImg}
       opacity="0.5"
       color="#0a1128"
       parallaxOffset="1"
@@ -27,19 +28,24 @@ const SimpleHero = () => {
       isCentered={false}
       className="hero-container"
     >
+      <div className={styles.navSub}>
+        (574)444-7787
+      </div>
       <Banner
         title="we specialize in commercial sewing."
         info="Here at JPC we have been manufacturing quality industrial textiles since 1984. From large commercial production to custom projects, we have everything to make your next project a success."
       >
-        <Link
-          to="/capabilities"
-          className={`${styles.heroBtn} ${styles.btnBlue}`}
-        >
-          Learn More
-        </Link>
-        <Link to="/contact" className={`${styles.heroBtn} ${styles.btnWhite}`}>
-          Contact Us
-        </Link>
+
+        <button className={`${styles.heroBtn} ${styles.btnBlue}`}>
+          <Link to="/capabilities" className={styles.link}>
+            Learn More
+          </Link>
+        </button>
+        <button className={`${styles.heroBtn} ${styles.btnWhite}`}>
+          <Link to="/contact" className={styles.link}>
+            Contact Us
+          </Link>
+        </button>
       </Banner>
     </LazyHero>
   )

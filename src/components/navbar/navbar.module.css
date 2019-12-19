@@ -3,20 +3,15 @@
   position: absolute;
   top: 0;
   z-index: 200;
-  display: block;
+  width: 100%;
 }
 .navHeader {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
-  width: 100vw;
-}
 
-.fixed {
-  position: absolute;
-  right: 80px;
+  padding: 1rem 0;
 }
 
 .logo {
@@ -40,7 +35,7 @@
   margin-top: 0.9rem;
 }
 
-.navlinks {
+.navLinks {
   list-style-type: none;
   text-align: right;
   transition: var(--mainTransition);
@@ -50,15 +45,14 @@
   overflow: hidden;
   z-index: 205;
   display: block;
+  right: 30px;
 }
 
 .showNav {
-  height: 120vh;
-  width: 100vw;
   background-color: red;
 }
 
-.navlinks a {
+.navLinks a {
   display: block;
   padding: 0.5rem 0.5rem;
   text-decoration: none;
@@ -68,7 +62,7 @@
   transition: var(--mainTransition);
   margin: 0 0.5rem;
 }
-.navlinks a:hover {
+.navLinks a:hover {
   background-image: linear-gradient(
     120deg,
     transparent 0%,
@@ -90,9 +84,11 @@
   color: white;
   background-color: var(--accentColor);
   text-align: right;
-  padding: 0.4rem 2.8rem;
-  font-size: 1rem;
+  padding: 1rem 2.8rem;
+  padding-left: 3.8rem;
+  font-size: 14px;
   letter-spacing: 0.1rem;
+  clip-path: polygon(12% 0%, 100% 0, 100% 100%, 0 100%);
 }
 .hideSub {
   display: none;
@@ -115,7 +111,7 @@
 }
 
 @media screen and (min-width: 1020px) {
-  .logoBtn {
+  .menuBtn {
     display: none;
   }
   .navCenter {
@@ -124,7 +120,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  .navlinks {
+  .navLinks {
     height: auto;
     display: flex;
     text-align: right;
@@ -134,19 +130,4 @@
     color: var(--accentColor);
     border-bottom: 2px solid white;
   }
-}
-
-.phone {
-  font-weight: normal;
-  display: inline-block;
-}
-
-.email {
-  font-weight: normal;
-  display: inline-block;
-  font-size: 0.8rem;
-}
-
-.navscroll {
-  background-color: red;
 }

@@ -49,7 +49,12 @@
 }
 
 .showNav {
-  background-color: red;
+  background-color: var(--accentColor);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 120vw;
 }
 
 .navLinks a {

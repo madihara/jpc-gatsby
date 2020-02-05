@@ -28,7 +28,7 @@ const NavBar = () => {
           <ul
             className={
               isOpen
-                ? `${styles.navLinks} ${styles.showNav}`
+                ? `${styles.menuBtn} ${styles.navLinks} ${styles.showNav} `
                 : `${styles.navLinks}`
             }
           >
@@ -48,4 +48,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar;
+export default NavBar

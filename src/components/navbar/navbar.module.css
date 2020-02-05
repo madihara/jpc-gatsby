@@ -1,3 +1,14 @@
+.menuBtn {
+  background-color: transparent;
+  border: none;
+  margin-right: 30px;
+  z-index: 100;
+}
+
+.menuBtn:hover {
+  transform: translate(1px);
+}
+
 .navbar {
   background-color: transparent;
   position: absolute;

@@ -8,16 +8,16 @@ import ImageGallery from "../components/portfolio/ImageGallery"
 
 import heroImg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
 
-
+import styles from "./styles-pages/portfolio.module.css"
 
 const portfolio = () => {
   var style = {
-    color: 'black',
+    color: "black",
     fontSize: 20,
-    textAlign: 'center',
-    margin: '10rem',
-    paddingRight: '10rem',
-    paddingLeft: '10rem'
+    textAlign: "center",
+    margin: "10rem",
+    paddingRight: "10rem",
+    paddingLeft: "10rem",
   }
 
   return (
@@ -39,8 +39,11 @@ const portfolio = () => {
         <ImageGallery />
       </Fade>
       <Fade>
-        <div style={style}>
-          This is just a small sample of the work we can do. With our 3D CAD Image Scanner, we can have precise measurements of anything quickly.
+        <div className={styles.box}>
+          <div className={styles.paragraph}>
+            This is just a small sample of the work we can do. With our 3D CAD
+            Image Scanner, we can have precise measurements of anything quickly.
+          </div>
         </div>
       </Fade>
     </Layout>

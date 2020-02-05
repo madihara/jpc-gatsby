@@ -21,11 +21,14 @@
   margin: 2rem 3rem;
   display: block;
 }
-h5{
+h5 {
   font-weight: normal;
-  font-size: 0.8rem ;
+  font-size: 0.9rem;
 }
 
+.lines {
+  line-height: 0.9rem;
+}
 
 .boxImg {
   padding: 0 4rem;
@@ -70,5 +73,5 @@ h5{
   text-transform: capitalize;
   border-top: 2px solid var(--accentColor);
   margin: 0 12rem;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
 }

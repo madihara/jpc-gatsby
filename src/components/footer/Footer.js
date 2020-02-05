@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import links from "../../constants/links"
+import data from "../../constants/contact"
 
 import logo from "../../images/jpc-logocir.png"
 
@@ -27,21 +28,26 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.box}>
-          <h5 className={styles.title}> Contact</h5>
-          <h5>JPC, LLC</h5>
-          <br />
-          <h5>2926 Paul Dr</h5>
-          <h5>Elkhart, IN 44444</h5>
-          <br />
-          <h5>jpccustom@gmail.com</h5>
-          <h5>574 444 7787</h5>
+          <h5 className={styles.title}>Contact</h5>
+          {data.map(item => {
+            return (
+              <div className={styles.lines}>
+                <h5>
+                  {item.text}
+                  <br></br>
+                  {item.subtext}
+                </h5>
+                <br />
+              </div>
+            )
+          })}
         </div>
         <div className={styles.boxImg}>
           <img src={logo} alt="jpc" className={styles.logo} />
         </div>
       </section>
       <div className={styles.copyright}>
-        2019 Copyright &copy; All Rights Reserved by JPC, LLC
+        2020 Copyright &copy; All Rights Reserved by JPC, LLC
       </div>
     </div>
   )

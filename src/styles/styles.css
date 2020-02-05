@@ -28,3 +28,7 @@ body {
 *:after {
   box-sizing: inherit;
 }
+
+.large-img{
+  margin-top: -4rem;
+}

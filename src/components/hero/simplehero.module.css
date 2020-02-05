@@ -57,9 +57,9 @@
 }
 
 .btnBlue {
-  background-color: var(--accentColor);
-  color: white;
-  border: 1px solid var(--accentColor);
+  background-color: transparent;
+  color: #ececec;
+  border: 5px solid var(--accentColor);
 }
 
 .navSub {

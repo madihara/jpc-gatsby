@@ -1,34 +1,32 @@
 .box {
-  padding: 3rem;
+  padding: 8rem 3rem 6rem;
 }
 
 .container {
   display: flex;
-  justify-content: space-between;
-  padding: 2rem 2rem;
+  justify-content: space-around;
+  padding: 0 2rem;
   flex-flow: row wrap;
- 
+  z-index: 100;
 }
 
 .card {
-  padding: 4rem 0 2rem;
-  font-size: 0.8rem;
-  width: 25%;
+  padding: 0 0 2rem;
+  font-size: 0.6rem;
+  width: 20%;
   margin: 1rem;
-  min-width: 350px;
+  min-width: 300px;
   border-radius: 3px;
   text-align: center;
-  background: #ececec;
-  border:5px;
 }
 
 .textBox {
-  padding: 2rem;
+  padding: 2rem 0.6rem;
 }
 
 .cardTitle {
   font-weight: normal;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   padding: 0.5rem 0 0.5rem;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;

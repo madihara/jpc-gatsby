@@ -28,7 +28,7 @@ const IconFeatures = () => {
             <FeatureCard
               icon={image1}
               title="Commercial Production"
-              info="JPC produces a variety of textiles __ that lead our customers to come back again and again. We work with brands across the country to provide quality products make of top caliber equipment and worksmanship. Attention to detail and experienced staff means the quality of our textiles is consistent and always guaranteed."
+              info="We work with major coorporations and small businesses alike to produce textiles . We have experience in auto, airline, and marine industries. "
             ></FeatureCard>
           </div>
           <div className={styles.card}>

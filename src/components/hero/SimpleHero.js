@@ -24,7 +24,7 @@ const SimpleHero = () => {
       opacity="0.5"
       color="#0a1128"
       parallaxOffset="1"
-      minHeight="100vh"
+      minHeight="110vh"
       isCentered={false}
       className="hero-container"
     >
@@ -35,7 +35,7 @@ const SimpleHero = () => {
         title="we specialize in commercial sewing."
         info="Here at JPC we have been manufacturing quality industrial textiles since 1984. From large commercial production to custom projects, we have everything to make your next project a success."
       >
-
+        {/*}
         <button className={`${styles.heroBtn} ${styles.btnBlue}`}>
           <Link to="/capabilities" className={styles.link}>
             Learn More
@@ -46,6 +46,7 @@ const SimpleHero = () => {
             Contact Us
           </Link>
         </button>
+  {*/}
       </Banner>
     </LazyHero>
   )

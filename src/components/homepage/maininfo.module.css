@@ -1,26 +1,37 @@
 .container {
-  padding: 8rem 0;
+  text-align: center;
+  padding: 11rem 0 15rem;
+  height: 100%;
+}
+
+.containerInfo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--primaryColor);
-  color: white;
 }
 
 .info {
   padding: 0 8rem;
+
+  max-width: 730px;
+  text-align: left;
 }
 .title {
-  font-size: 1.3rem;
+  font-size: 7rem;
   text-transform: uppercase;
   padding-bottom: 1rem;
-  border-bottom: 2px solid white;
-  margin-bottom: 2rem;
+  margin-bottom: -5rem;
+  margin-right: -10rem;
+  margin-left: -3rem;
+  color: #838383;
+  opacity: 0.2;
+  font-weight: bold;
 }
 .subTitle {
   font-weight: normal;
   font-size: 1.6rem;
   padding: 1rem 0;
+  text-transform: uppercase;
 }
 
 .subText {
@@ -32,5 +43,10 @@
   padding: 0 2rem;
 }
 .image {
-  width: 45vw;
+  overflow: hidden;
+  position: absolute;
+  height: 95%;
+  left: 640px;
+  top: 950px;
+  opacity: 0.8;
 }

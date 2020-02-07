@@ -3,10 +3,19 @@
   border: none;
   margin-right: 30px;
   z-index: 100;
+  position: fixed;
+  right: 20px;
+  top: 10px;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  padding-bottom: 0.5rem;
+  background: var(--accentColor);
+  outline: none;
 }
 
 .menuBtn:hover {
-  transform: translate(1px);
+  transform: translate(3px);
 }
 
 .navbar {
@@ -63,9 +72,12 @@
   background-color: var(--accentColor);
   height: 100%;
   position: fixed;
+  border-radius: 0;
   top: 0;
-  right: 0;
+  right: -30px;
   width: 120vw;
+  padding: 4rem 0 4rem 6rem;
+  font-size: 2rem;
 }
 
 .navLinks a {

@@ -76,6 +76,17 @@
   right: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .bannerTitle {
+    position: absolute;
+    top: 50%;
+  }
+  .bannerInfo {
+    position: relative;
+    top: 200px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .banner {
     max-width: 54vw;

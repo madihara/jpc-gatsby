@@ -12,7 +12,10 @@ const ContactForm = () => {
       <section className={styles.container}>
         <div className={styles.box1}>
           <h2 className={styles.title}>Send us a message</h2>
-          <form className={styles.form}>
+          <form
+            className={styles.form}
+            action="mailto:madisonharadine@gmail.com"
+          >
             <div>
               <input
                 type="text"

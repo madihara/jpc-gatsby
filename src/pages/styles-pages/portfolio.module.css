@@ -1,9 +1,10 @@
 .box {
   text-align: center;
-  align-content: center;
+  align-items: center;
   display: flex;
 }
 
 .paragraph {
   max-width: 650px;
+  align-self: center;
 }

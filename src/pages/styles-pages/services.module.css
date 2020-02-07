@@ -13,11 +13,28 @@
   max-width: 600px;
 }
 
-h1{
+h1 {
   margin-bottom: 8px;
 }
 
 .info {
   margin: 0 2rem;
   max-width: 550px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 1.5rem 1rem;
+  }
+
+  h1 {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  .info {
+    margin: 0;
+  }
+  .image {
+    display: none;
+  }
 }

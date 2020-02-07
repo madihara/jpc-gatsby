@@ -1,8 +1,9 @@
 .box {
   text-align: center;
+  align-content: center;
+  display: flex;
 }
 
 .paragraph {
-  margin: 2rem 14rem;
-  min-width: 350px;
+  max-width: 650px;
 }

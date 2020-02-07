@@ -65,16 +65,21 @@ br {
 }
 
 .contact {
-  display: flex;
-  flex-direction: column;
   align-content: space-around;
   color: white;
   margin-bottom: 1.3rem;
 }
+span {
+  display: inline;
+}
+.icons {
+  height: 13px;
+  width: 13px;
+  display: inline-block;
+}
 
-.icon {
-  height: 15px;
-  color: white;
+.flex {
+  display: flex;
 }
 
 .title2 {

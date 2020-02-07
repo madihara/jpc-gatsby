@@ -1,5 +1,9 @@
 import React from "react"
 
+import phoneImg from "../../images/icons/call-answer.png"
+import emailImg from "../../images/icons/e-mail-envelope.svg"
+import addressImg from "../../images/icons/maps-and-flags.svg"
+
 import styles from "./contactform.module.css"
 
 const ContactForm = () => {
@@ -51,17 +55,24 @@ const ContactForm = () => {
 
           <div className={styles.contact}>
             <h3 className={styles.subs}>Phone</h3>
-            <p> +1 574 293 8030</p>
+            <img src={phoneImg} alt="" className={styles.icons} />
+            <span> &nbsp; +1 574 293 8030</span>
           </div>
           <div className={styles.contact}>
             <h3 className={styles.subs}>Email</h3>
-
-            <p> jpccustom@gmail.com</p>
+            <img src={emailImg} alt="" className={styles.icons}></img>
+            <span> &nbsp; jpccustom@gmail.com</span>
           </div>
           <div className={styles.contact}>
             <h3 className={styles.subs}>Address</h3>
-            <p> 2926 Paul Dr.</p>
-            <p> Elkhart, Indiana 48100</p>
+            <div className={styles.flex}>
+              <img src={addressImg} alt="" className={styles.icons} />
+              &nbsp; &nbsp;
+              <div>
+                <p> 2926 Paul Dr.</p>
+                <p> Elkhart, Indiana 48100</p>
+              </div>
+            </div>
           </div>
 
           <iframe

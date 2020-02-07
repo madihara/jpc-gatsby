@@ -62,4 +62,7 @@
     font-size: 5rem;
     padding: 2rem;
   }
+  .imagebox {
+    display: none;
+  }
 }

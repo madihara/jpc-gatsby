@@ -58,12 +58,11 @@
 .navLinks {
   list-style-type: none;
   text-align: right;
-  transition: var(--mainTransition);
   letter-spacing: 0.2rem;
   font-size: 0.7rem;
   height: 0;
   overflow: hidden;
-  z-index: 205;
+  z-index: 10;
   display: block;
   right: 30px;
 }
@@ -76,7 +75,7 @@
   top: 0;
   right: -30px;
   width: 120vw;
-  padding: 4rem 0 4rem 6rem;
+  padding: 5rem 0 4rem 6rem;
   font-size: 2rem;
 }
 

@@ -84,11 +84,10 @@ h5 {
 
   .copyright {
     min-width: 350px;
+    margin: -2rem;
+    border-top: none;
   }
 
-  .logo {
-    justify-self: center;
-  }
   .boxImg {
     margin: 1rem 0 0 4rem;
   }

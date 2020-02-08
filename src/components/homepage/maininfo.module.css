@@ -2,6 +2,8 @@
   text-align: center;
   padding: 11rem 0 15rem;
   height: 100%;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .containerInfo {
@@ -42,12 +44,12 @@
   padding: 0 2rem;
 }
 .image {
-  overflow: hidden;
   position: absolute;
   height: 95%;
   left: 640px;
   top: 950px;
   opacity: 0.8;
+  object-fit: scale-down;
 }
 @media screen and (max-width: 730px) {
   .info {

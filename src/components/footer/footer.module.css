@@ -79,10 +79,17 @@ h5 {
 @media screen and (max-width: 768px) {
   .box {
     min-width: 350px;
+    margin-left: 3rem;
   }
 
   .copyright {
     min-width: 350px;
-    margin: 0 3rem;
+    margin-left: 5rem;
+  }
+  .logo {
+    justify-self: center;
+  }
+  .boxImg {
+    margin: 1rem 0 0 4rem;
   }
 }

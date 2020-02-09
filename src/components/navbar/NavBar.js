@@ -28,7 +28,7 @@ const NavBar = () => {
           <ul
             className={
               isOpen
-                ? `${styles.menuBtn} ${styles.navLinks} ${styles.showNav} `
+                ? `${styles.navLinks} ${styles.showNav} `
                 : `${styles.navLinks}`
             }
           >

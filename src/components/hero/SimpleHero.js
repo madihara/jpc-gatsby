@@ -29,7 +29,7 @@ const SimpleHero = () => {
       <div className={styles.navSub}>(574)444-7787</div>
       <Banner
         title="we specialize in commercial sewing."
-        info="Here at JPC we have been manufacturing quality industrial textiles since 1984. From large commercial production to custom projects, we have everything to make your next project a success."
+        info="At JPC we have been manufacturing quality industrial textiles since 1984. From large commercial production to custom projects, we have the experience to make your next project a success."
       >
         {/*}
         <button className={`${styles.heroBtn} ${styles.btnBlue}`}>

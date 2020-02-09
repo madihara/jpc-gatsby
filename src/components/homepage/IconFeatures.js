@@ -28,14 +28,14 @@ const IconFeatures = () => {
             <FeatureCard
               icon={image1}
               title="Commercial Production"
-              info="We work with major coorporations and small businesses alike to produce textiles . We have experience in auto, airline, and marine industries. "
+              info="We have a long history of producing consistent, large quantities of products with short lead times.  We have worked with many large industries, including automotive, marine, and airline and ****____****"
             ></FeatureCard>
           </div>
           <div className={styles.card}>
             <FeatureCard
               icon={image2}
               title="Custom Projects"
-              info="We want to be the first you call for all your custom needs. We know that no matter how big or small a project is, it needs to be done right."
+              info="We want to be the first you call for all your custom needs. We know that no matter how big or small a project is, it needs to be done right. We are happy to help you with your fabric needs from conception to finished product."
             ></FeatureCard>
           </div>
           <div className={styles.card}>

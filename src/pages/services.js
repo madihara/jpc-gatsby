@@ -37,18 +37,54 @@ const services = () => (
           </div>
           <div className={styles.info}>
             <h1>Commercial Production</h1>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam augue ipsum, euismod quis massa eu, aliquet faucibus risus. Nullam bibendum dapibus nibh, ut pellentesque libero posuere sed. Sed a justo id justo dapibus condimentum nec vitae nibh. Praesent luctus, odio in ornare lobortis, augue leo efficitur metus, id porttitor ligula lacus nec arcu. Nullam fringilla, massa in mollis sodales, ipsum sapien iaculis erat, in facilisis tellus metus id purus. In in risus et nisi tempor porta. Proin id sem ut metus lobortis euismod. Suspendisse potenti. Ut ac turpis eros. Mauris varius at sem eu lobortis. Sed sollicitudin a magna et vestibulum. Nam aliquet quis dui vitae egestas.
-
-Aenean cursus mauris vitae est eleifend placerat. Duis in facilisis odio, ac mollis magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum eu leo mauris. Morbi eu sapien odio. Maecenas justo libero, rhoncus et pharetra id, porttitor et leo. Nulla vel eleifend elit. Aenean et diam gravida, convallis ante et, bibendum est. Praesent consequat leo non accumsan viverra. Etiam hendrerit convallis urna vitae tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              augue ipsum, euismod quis massa eu, aliquet faucibus risus. Nullam
+              bibendum dapibus nibh, ut pellentesque libero posuere sed. Sed a
+              justo id justo dapibus condimentum nec vitae nibh. Praesent
+              luctus, odio in ornare lobortis, augue leo efficitur metus, id
+              porttitor ligula lacus nec arcu. Nullam fringilla, massa in mollis
+              sodales, ipsum sapien iaculis erat, in facilisis tellus metus id
+              purus. In in risus et nisi tempor porta. Proin id sem ut metus
+              lobortis euismod. Suspendisse potenti. Ut ac turpis eros. Mauris
+              varius at sem eu lobortis. Sed sollicitudin a magna et vestibulum.
+              Nam aliquet quis dui vitae egestas. Aenean cursus mauris vitae est
+              eleifend placerat. Duis in facilisis odio, ac mollis magna.
+              Interdum et malesuada fames ac ante ipsum primis in faucibus.
+              Vestibulum eu leo mauris. Morbi eu sapien odio. Maecenas justo
+              libero, rhoncus et pharetra id, porttitor et leo. Nulla vel
+              eleifend elit. Aenean et diam gravida, convallis ante et, bibendum
+              est. Praesent consequat leo non accumsan viverra. Etiam hendrerit
+              convallis urna vitae tempus. Orci varius natoque penatibus et
+              magnis dis parturient montes, nascetur ridiculus mus.
+            </span>
           </div>
         </div>
 
         <div className={styles.container}>
           <div className={styles.info}>
             <h1>Custom Projects</h1>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam augue ipsum, euismod quis massa eu, aliquet faucibus risus. Nullam bibendum dapibus nibh, ut pellentesque libero posuere sed. Sed a justo id justo dapibus condimentum nec vitae nibh. Praesent luctus, odio in ornare lobortis, augue leo efficitur metus, id porttitor ligula lacus nec arcu. Nullam fringilla, massa in mollis sodales, ipsum sapien iaculis erat, in facilisis tellus metus id purus. In in risus et nisi tempor porta. Proin id sem ut metus lobortis euismod. Suspendisse potenti. Ut ac turpis eros. Mauris varius at sem eu lobortis. Sed sollicitudin a magna et vestibulum. Nam aliquet quis dui vitae egestas.
-
-Aenean cursus mauris vitae est eleifend placerat. Duis in facilisis odio, ac mollis magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum eu leo mauris. Morbi eu sapien odio. Maecenas justo libero, rhoncus et pharetra id, porttitor et leo. Nulla vel eleifend elit. Aenean et diam gravida, convallis ante et, bibendum est. Praesent consequat leo non accumsan viverra. Etiam hendrerit convallis urna vitae tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              augue ipsum, euismod quis massa eu, aliquet faucibus risus. Nullam
+              bibendum dapibus nibh, ut pellentesque libero posuere sed. Sed a
+              justo id justo dapibus condimentum nec vitae nibh. Praesent
+              luctus, odio in ornare lobortis, augue leo efficitur metus, id
+              porttitor ligula lacus nec arcu. Nullam fringilla, massa in mollis
+              sodales, ipsum sapien iaculis erat, in facilisis tellus metus id
+              purus. In in risus et nisi tempor porta. Proin id sem ut metus
+              lobortis euismod. Suspendisse potenti. Ut ac turpis eros. Mauris
+              varius at sem eu lobortis. Sed sollicitudin a magna et vestibulum.
+              Nam aliquet quis dui vitae egestas. Aenean cursus mauris vitae est
+              eleifend placerat. Duis in facilisis odio, ac mollis magna.
+              Interdum et malesuada fames ac ante ipsum primis in faucibus.
+              Vestibulum eu leo mauris. Morbi eu sapien odio. Maecenas justo
+              libero, rhoncus et pharetra id, porttitor et leo. Nulla vel
+              eleifend elit. Aenean et diam gravida, convallis ante et, bibendum
+              est. Praesent consequat leo non accumsan viverra. Etiam hendrerit
+              convallis urna vitae tempus. Orci varius natoque penatibus et
+              magnis dis parturient montes, nascetur ridiculus mus.
+            </span>
           </div>
 
           <div className={styles.image}>
@@ -70,9 +106,27 @@ Aenean cursus mauris vitae est eleifend placerat. Duis in facilisis odio, ac mol
           </div>
           <div className={styles.info}>
             <h1>3D Cad Design</h1>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam augue ipsum, euismod quis massa eu, aliquet faucibus risus. Nullam bibendum dapibus nibh, ut pellentesque libero posuere sed. Sed a justo id justo dapibus condimentum nec vitae nibh. Praesent luctus, odio in ornare lobortis, augue leo efficitur metus, id porttitor ligula lacus nec arcu. Nullam fringilla, massa in mollis sodales, ipsum sapien iaculis erat, in facilisis tellus metus id purus. In in risus et nisi tempor porta. Proin id sem ut metus lobortis euismod. Suspendisse potenti. Ut ac turpis eros. Mauris varius at sem eu lobortis. Sed sollicitudin a magna et vestibulum. Nam aliquet quis dui vitae egestas.
-
-Aenean cursus mauris vitae est eleifend placerat. Duis in facilisis odio, ac mollis magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum eu leo mauris. Morbi eu sapien odio. Maecenas justo libero, rhoncus et pharetra id, porttitor et leo. Nulla vel eleifend elit. Aenean et diam gravida, convallis ante et, bibendum est. Praesent consequat leo non accumsan viverra. Etiam hendrerit convallis urna vitae tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              augue ipsum, euismod quis massa eu, aliquet faucibus risus. Nullam
+              bibendum dapibus nibh, ut pellentesque libero posuere sed. Sed a
+              justo id justo dapibus condimentum nec vitae nibh. Praesent
+              luctus, odio in ornare lobortis, augue leo efficitur metus, id
+              porttitor ligula lacus nec arcu. Nullam fringilla, massa in mollis
+              sodales, ipsum sapien iaculis erat, in facilisis tellus metus id
+              purus. In in risus et nisi tempor porta. Proin id sem ut metus
+              lobortis euismod. Suspendisse potenti. Ut ac turpis eros. Mauris
+              varius at sem eu lobortis. Sed sollicitudin a magna et vestibulum.
+              Nam aliquet quis dui vitae egestas. Aenean cursus mauris vitae est
+              eleifend placerat. Duis in facilisis odio, ac mollis magna.
+              Interdum et malesuada fames ac ante ipsum primis in faucibus.
+              Vestibulum eu leo mauris. Morbi eu sapien odio. Maecenas justo
+              libero, rhoncus et pharetra id, porttitor et leo. Nulla vel
+              eleifend elit. Aenean et diam gravida, convallis ante et, bibendum
+              est. Praesent consequat leo non accumsan viverra. Etiam hendrerit
+              convallis urna vitae tempus. Orci varius natoque penatibus et
+              magnis dis parturient montes, nascetur ridiculus mus.
+            </span>
           </div>
         </div>
       </section>

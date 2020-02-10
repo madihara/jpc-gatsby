@@ -63,8 +63,8 @@
 
     .subtitle {
       font-weight: lighter;
-      font-size: 10px;
-      padding-bottom: 7px;
+      font-size: 13px;
+      padding-bottom: 0px;
       text-transform: uppercase;
     }
   }
@@ -72,4 +72,10 @@
   .hidden {
     display: none;
   }
+}
+
+.features {
+  height: 100%;
+  width: 100%;
+  background: white;
 }

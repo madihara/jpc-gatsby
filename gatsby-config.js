@@ -9,6 +9,18 @@ require("dotenv").config({
 })
 
 module.exports = {
+  siteMetadata: {
+    title: "JPC Custom, LLC",
+    author: "Madison Haradine",
+    business: {
+      name: "JPC",
+      streetAddress: "2926 Paul Drive",
+      cityAddress: "Elkhart, IN 46514",
+      phone: "+1(574)293-8030",
+      email: "jpccustom@gmail.com"
+    }
+
+  },
   plugins: [
     `gatsby-plugin-sass`,
     {

@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/Layout"
+import Layout from "../components/Layout/Layout"
 import LazyHero from "react-lazy-hero"
 import HeroHeader from "../components/hero/HeroHeader"
 import { Zoom, Fade } from "react-reveal"
@@ -11,14 +11,7 @@ import heroImg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
 import styles from "./styles-pages/portfolio.module.css"
 
 const portfolio = () => {
-  var style = {
-    color: "black",
-    fontSize: 20,
-    textAlign: "center",
-    margin: "10rem",
-    paddingRight: "10rem",
-    paddingLeft: "10rem",
-  }
+
 
   return (
     <Layout>

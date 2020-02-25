@@ -5,8 +5,29 @@ import emailImg from "../../images/icons/e-mail-envelope.svg"
 import addressImg from "../../images/icons/maps-and-flags.svg"
 
 import styles from "./contactform.module.css"
+import { useStaticQuery } from "gatsby"
 
 const ContactForm = () => {
+  const data = useStaticQuery(graphql`
+    query{
+  site{
+    siteMetadata{
+      title
+      author
+      business{
+        name
+        streetAddress
+        cityAddress
+        phone
+        email
+      }
+    }
+  }
+}
+`)
+
+  const { name, streetAddress, cityAddress, phone, email } = data.site.siteMetadata.business
+
   return (
     <>
       <section className={styles.container}>
@@ -59,12 +80,12 @@ const ContactForm = () => {
           <div className={styles.contact}>
             <h3 className={styles.subs}>Phone</h3>
             <img src={phoneImg} alt="" className={styles.icons} />
-            <span> &nbsp; +1 574 293 8030</span>
+            <span> &nbsp; {phone}</span>
           </div>
           <div className={styles.contact}>
             <h3 className={styles.subs}>Email</h3>
             <img src={emailImg} alt="" className={styles.icons}></img>
-            <span> &nbsp; jpccustom@gmail.com</span>
+            <span> &nbsp; {email}</span>
           </div>
           <div className={styles.contact}>
             <h3 className={styles.subs}>Address</h3>
@@ -72,8 +93,8 @@ const ContactForm = () => {
               <img src={addressImg} alt="" className={styles.icons} />
               &nbsp; &nbsp;
               <div>
-                <p> 2926 Paul Dr.</p>
-                <p> Elkhart, Indiana 48100</p>
+                <p> {streetAddress}</p>
+                <p> {cityAddress}</p>
               </div>
             </div>
           </div>

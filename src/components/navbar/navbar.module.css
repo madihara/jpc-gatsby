@@ -123,6 +123,10 @@
   display: none;
 }
 
+.sticky{
+  position: fixed;
+}
+
 .phoneIcon {
   height: 0.8rem;
 }

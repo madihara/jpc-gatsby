@@ -2,6 +2,7 @@ import React, { useState } from "react"
 
 import "./image-card.scss"
 
+
 const ImageCard = ({ title, features, imageUrl, size }) => {
   const [isOpen, setInfo] = useState(false)
 
@@ -16,13 +17,14 @@ const ImageCard = ({ title, features, imageUrl, size }) => {
         style={{
           backgroundImage: `url(${imageUrl})`,
         }}
-      ></div>
-      <div className="content" onClick={toggleInfo}>
-        <h1 className="title">{title.toUpperCase()}</h1>
-        <span className={isOpen ? "hidden" : "subtitle"}>Learn More</span>
-        <span onClick={toggleInfo} className={isOpen ? "subtitle" : "hidden"}>
-          Coming Soon!
+      >
+        <div className="content" onClick={toggleInfo}>
+          <h1 className="title">{title.toUpperCase()}</h1>
+          <span className={isOpen ? "hidden" : "subtitle"}>Learn More</span>
+          <span onClick={toggleInfo} className={isOpen ? "subtitle" : "hidden"}>
+            Coming Soon!
         </span>
+        </div>
       </div>
     </div>
   )

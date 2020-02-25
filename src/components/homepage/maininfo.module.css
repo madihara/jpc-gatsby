@@ -1,8 +1,9 @@
 .container {
   text-align: center;
-  padding: 11rem 0 15rem;
+  padding: 1rem 0 4rem;
   height: 100%;
   width: 100vw;
+
   overflow: hidden;
 }
 
@@ -10,12 +11,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 450px;
+ 
 }
 
 .info {
   padding: 0 8rem;
   max-width: 730px;
   text-align: left;
+  min-width: 700px;
 }
 .title {
   font-size: 7rem;
@@ -41,15 +45,15 @@
 }
 
 .imagebox {
-  padding: 0 2rem;
+  padding: 0rem;
+  max-width: 50%;
+  
 }
 .image {
-  position: absolute;
-  height: 95%;
-  left: 640px;
-  top: 950px;
+  position: relative;
+  height: 65%;
   opacity: 0.8;
-  object-fit: scale-down;
+  overflow: hidden;
 }
 @media screen and (max-width: 730px) {
   .info {

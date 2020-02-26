@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout/Layout"
+import Head from '../components/Head'
 import LazyHero from "react-lazy-hero"
 import HeroHeader from "../components/hero/HeroHeader"
 import { Zoom, Fade } from "react-reveal"
@@ -11,6 +12,7 @@ import styles from "./styles-pages/services.module.css"
 
 const services = () => (
   <Layout>
+    <Head title="Services" />
     <LazyHero
       imageSrc={heroimg}
       opacity="0.7"

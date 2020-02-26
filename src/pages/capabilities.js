@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout/Layout"
+import Head from '../components/Head'
 
 import LazyHero from "react-lazy-hero"
 import HeroHeader from "../components/hero/HeroHeader"
@@ -14,6 +15,7 @@ import styles from "./styles-pages/capabilities.module.css"
 const capabilities = () => {
   return (
     <Layout>
+      <Head title="Capabilities" />
       <LazyHero
         imageSrc={heroimg}
         opacity="0.7"

@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "env-cmd .env.development gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -15,12 +15,14 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "gatsby": "^2.3.36",
+    "gatsby-plugin-react-helmet": "^3.1.22",
     "gatsby-plugin-react-svg": "^2.1.2",
     "gatsby-plugin-sass": "^2.1.22",
     "gatsby-source-contentful": "^2.0.75",
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
     "react-icons": "^3.8.0",
     "react-lazy-hero": "^2.0.0",
     "react-reveal": "^1.2.2",
@@ -29,6 +31,7 @@
     "styled-components": "^4.4.0"
   },
   "devDependencies": {
+    "env-cmd": "^10.1.0",
     "prettier": "^1.18.2"
   },
   "repository": {

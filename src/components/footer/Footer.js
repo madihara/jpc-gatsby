@@ -1,8 +1,8 @@
 import React from "react"
-import { Link, useStaticQuery } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 import links from "../../constants/links"
 
-import logo from "../../images/jpc-logocir.png"
+import logo from "../../images/icons/jpc-logocir.png"
 
 import styles from "./footer.module.css"
 

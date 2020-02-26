@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout/Layout"
+import Head from '../components/Head'
 import LazyHero from "react-lazy-hero"
 import HeroHeader from "../components/hero/HeroHeader"
 import Zoom from "react-reveal"
@@ -9,6 +10,7 @@ import heroimg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
 
 const contact = () => (
   <Layout>
+    <Head title="Contact" />
     <LazyHero
       imageSrc={heroimg}
       opacity="0.7"

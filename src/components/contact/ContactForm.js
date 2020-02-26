@@ -1,11 +1,12 @@
 import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
 
 import phoneImg from "../../images/icons/call-answer.png"
 import emailImg from "../../images/icons/e-mail-envelope.svg"
 import addressImg from "../../images/icons/maps-and-flags.svg"
 
 import styles from "./contactform.module.css"
-import { useStaticQuery } from "gatsby"
+
 
 const ContactForm = () => {
   const data = useStaticQuery(graphql`

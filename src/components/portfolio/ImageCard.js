@@ -17,16 +17,16 @@ const ImageCard = ({ title, features, imageUrl, size }) => {
         style={{
           backgroundImage: `url(${imageUrl})`,
         }}
-      >
-        <div className="content" onClick={toggleInfo}>
-          <h1 className="title">{title.toUpperCase()}</h1>
-          <span className={isOpen ? "hidden" : "subtitle"}>Learn More</span>
-          <span onClick={toggleInfo} className={isOpen ? "subtitle" : "hidden"}>
-            Coming Soon!
+      > </div>
+      <div className="content" onClick={toggleInfo}>
+        <h1 className="title">{title.toUpperCase()}</h1>
+        <span className={isOpen ? "hidden" : "subtitle"}>Learn More</span>
+        <span onClick={toggleInfo} className={isOpen ? "subtitle" : "hidden"}>
+          Coming Soon!
         </span>
-        </div>
       </div>
     </div>
+
   )
 }
 

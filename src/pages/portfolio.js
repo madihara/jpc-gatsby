@@ -7,7 +7,7 @@ import { Zoom, Fade } from "react-reveal"
 
 import ImageGallery from "../components/portfolio/ImageGallery"
 
-import heroImg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
+import heroImg from '../images/hero3.jpg'
 
 import styles from "./styles-pages/portfolio.module.css"
 

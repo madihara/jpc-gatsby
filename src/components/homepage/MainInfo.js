@@ -7,7 +7,6 @@ import styles from "./maininfo.module.css"
 const MainInfo = () => {
   return (
     <div className={styles.container}>
-      <a id="#about"></a>
       <div className={styles.containerInfo}>
         <div className={styles.info}>
           <header className={styles.title}>About us</header>

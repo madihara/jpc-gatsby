@@ -21,6 +21,7 @@
   font-family: "Oswald", sans serif;
   font-size: 50px;
   color: white;
+  
 }
 
 .bannerInfo {
@@ -29,8 +30,9 @@
   margin-top: 2rem;
   font-family: sans-serif;
   color: white;
-
+  
   margin-bottom: 2.4rem;
+  padding: 0;
 }
 
 
@@ -58,7 +60,9 @@
   .bannerInfo {
     position: relative;
     top: 300px;
+    margin-top: -6rem;
   }
+
 }
 
 @media screen and (min-width: 768px) {

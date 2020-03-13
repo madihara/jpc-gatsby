@@ -6,8 +6,8 @@ import LazyHero from "react-lazy-hero"
 import HeroHeader from "../components/hero/HeroHeader"
 import { Zoom, Fade } from "react-reveal"
 
-import heroimg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
-import image1 from '../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg'
+import heroimg from '../images/hero2.jpg'
+
 import image2 from "../images/fabrics-factory-industry-236748.jpg"
 import image3 from '../images/arts-and-crafts-close-up-colors-2973392.jpg'
 import image4 from '../images/j-williams-ehePIW7RA2g-unsplash.jpg'

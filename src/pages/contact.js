@@ -6,14 +6,14 @@ import HeroHeader from "../components/hero/HeroHeader"
 import Zoom from "react-reveal"
 import ContactForm from "../components/contact/ContactForm"
 
-import heroimg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
+import heroimg from '../images/herocontact.jpg'
 
 const contact = () => (
   <Layout>
     <Head title="Contact" />
     <LazyHero
       imageSrc={heroimg}
-      opacity="0.7"
+      opacity="0.8"
       color="#0a1128"
       parallaxOffset="1"
       minHeight="45vh"

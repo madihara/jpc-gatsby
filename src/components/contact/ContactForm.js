@@ -84,18 +84,19 @@ const ContactForm = () => {
             <span> &nbsp; {phone}</span>
           </div>
           <div className={styles.contact}>
-            <h3 className={styles.subs}>Email</h3>
-            <img src={emailImg} alt="" className={styles.icons}></img>
-            <span> &nbsp; {email}</span>
+            <h3 className={styles.subs}>Email</h3><div className={styles.flex}>
+              <img src={emailImg} alt="" className={styles.icons} style={{ marginTop: '1px' }}></img>
+              <div> &nbsp; {email}</div>
+            </div>
           </div>
           <div className={styles.contact}>
             <h3 className={styles.subs}>Address</h3>
             <div className={styles.flex}>
-              <img src={addressImg} alt="" className={styles.icons} />
+              <img src={addressImg} alt="" className={styles.icons} style={{ marginTop: '5px' }} />
               &nbsp; &nbsp;
               <div>
-                <p> {streetAddress}</p>
-                <p> {cityAddress}</p>
+                {streetAddress}<br></br>
+                {cityAddress}
               </div>
             </div>
           </div>

@@ -34,3 +34,23 @@ body {
 .large-img {
   margin-top: -4rem;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--primaryColor);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--accentColor);
+  height: 200px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}

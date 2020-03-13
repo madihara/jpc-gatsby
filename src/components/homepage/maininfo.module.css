@@ -73,3 +73,10 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 730px){
+  .info {
+    padding: 0 1rem;
+    min-width: 300px;
+  }
+}

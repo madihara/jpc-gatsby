@@ -32,21 +32,22 @@ const SimpleHero = () => {
   const { phone } = data.site.siteMetadata.business
 
   return (
-    <LazyHero
-      imageSrc={heroImg}
-      opacity="0.5"
-      color="#0a1128"
-      parallaxOffset="1"
-      minHeight="100vh"
-      isCentered={false}
-      className="hero-container"
-    >
-      <div className={styles.navSub}>{phone}</div>
-      <Banner
-        title="we specialize in commercial sewing."
-        info="At JPC we have been manufacturing quality industrial textiles since 1984. From large commercial production to custom projects, we have the experience to make your next project a success."
+    <>
+      <LazyHero
+        imageSrc={heroImg}
+        opacity="0.5"
+        color="#0a1128"
+        parallaxOffset="1"
+        minHeight="100vh"
+        isCentered={false}
+        className="hero-container"
       >
-        {/*}
+        <div className={styles.navSub}>{phone}</div>
+        <Banner
+          title="we specialize in commercial sewing."
+          info="At JPC we have been manufacturing quality industrial textiles since 1984. From large commercial production to custom projects, we have the experience to make your next project a success."
+        >
+          {/*}
         <button className={`${styles.heroBtn} ${styles.btnBlue}`}>
           <Link to="/capabilities" className={styles.link}>
             Learn More
@@ -58,8 +59,10 @@ const SimpleHero = () => {
           </Link>
         </button>
   {*/}
-      </Banner>
-    </LazyHero>
+
+        </Banner>
+      </LazyHero>
+    </>
   )
 }
 

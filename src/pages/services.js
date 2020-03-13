@@ -7,7 +7,10 @@ import HeroHeader from "../components/hero/HeroHeader"
 import { Zoom, Fade } from "react-reveal"
 
 import heroimg from "../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg"
-import image1 from "../images/fabrics-factory-industry-236748.jpg"
+import image1 from '../images/jezael-melgoza-HYQvV8wWX18-unsplash.jpg'
+import image2 from "../images/fabrics-factory-industry-236748.jpg"
+import image3 from '../images/arts-and-crafts-close-up-colors-2973392.jpg'
+import image4 from '../images/j-williams-ehePIW7RA2g-unsplash.jpg'
 
 import styles from "./styles-pages/services.module.css"
 
@@ -29,113 +32,44 @@ const services = () => {
           <HeroHeader title="Our services"></HeroHeader>
         </Zoom>
       </LazyHero>
-
-      <Fade up>
-        <section className={styles.services}>
-          <div className={styles.container}>
-            <div className={styles.imageBox}>
-              <img
-                src={image1}
-                alt="sewing machine vector"
-                className={styles.image}
-              />
-            </div>
-            <div className={styles.info}>
-              <h1>Commercial Production</h1>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                augue ipsum, euismod quis massa eu, aliquet faucibus risus. Nullam
-                bibendum dapibus nibh, ut pellentesque libero posuere sed. Sed a
-                justo id justo dapibus condimentum nec vitae nibh. Praesent
-                luctus, odio in ornare lobortis, augue leo efficitur metus, id
-                porttitor ligula lacus nec arcu. Nullam fringilla, massa in mollis
-                sodales, ipsum sapien iaculis erat, in facilisis tellus metus id
-                purus. In in risus et nisi tempor porta. Proin id sem ut metus
-                lobortis euismod. Suspendisse potenti. Ut ac turpis eros. Mauris
-                varius at sem eu lobortis. Sed sollicitudin a magna et vestibulum.
-                Nam aliquet quis dui vitae egestas. Aenean cursus mauris vitae est
-                eleifend placerat. Duis in facilisis odio, ac mollis magna.
-                Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                Vestibulum eu leo mauris. Morbi eu sapien odio. Maecenas justo
-                libero, rhoncus et pharetra id, porttitor et leo. Nulla vel
-                eleifend elit. Aenean et diam gravida, convallis ante et, bibendum
-                est. Praesent consequat leo non accumsan viverra. Etiam hendrerit
-                convallis urna vitae tempus. Orci varius natoque penatibus et
-                magnis dis parturient montes, nascetur ridiculus mus.
-            </span>
-            </div>
-          </div>
-
+      <div className={styles.flex}>
+        <Fade left>
           <div className={styles.container}>
             <div className={styles.info}>
-              <h1>Custom Projects</h1>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                augue ipsum, euismod quis massa eu, aliquet faucibus risus. Nullam
-                bibendum dapibus nibh, ut pellentesque libero posuere sed. Sed a
-                justo id justo dapibus condimentum nec vitae nibh. Praesent
-                luctus, odio in ornare lobortis, augue leo efficitur metus, id
-                porttitor ligula lacus nec arcu. Nullam fringilla, massa in mollis
-                sodales, ipsum sapien iaculis erat, in facilisis tellus metus id
-                purus. In in risus et nisi tempor porta. Proin id sem ut metus
-                lobortis euismod. Suspendisse potenti. Ut ac turpis eros. Mauris
-                varius at sem eu lobortis. Sed sollicitudin a magna et vestibulum.
-                Nam aliquet quis dui vitae egestas. Aenean cursus mauris vitae est
-                eleifend placerat. Duis in facilisis odio, ac mollis magna.
-                Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                Vestibulum eu leo mauris. Morbi eu sapien odio. Maecenas justo
-                libero, rhoncus et pharetra id, porttitor et leo. Nulla vel
-                eleifend elit. Aenean et diam gravida, convallis ante et, bibendum
-                est. Praesent consequat leo non accumsan viverra. Etiam hendrerit
-                convallis urna vitae tempus. Orci varius natoque penatibus et
-                magnis dis parturient montes, nascetur ridiculus mus.
-            </span>
+              <h3 className={styles.title}>
+                commercial
+          </h3>
+              <p className={styles.first}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+              <p>Magna fugiat do deserunt veniam culpa sunt excepteur mollit nisi ea laborum. In ut consectetur ut esse cillum excepteur officia ea. Non et laboris sit non aliqua cillum adipisicing tempor labore ex enim aliquip sint aute.</p>
             </div>
-
-            <div className={styles.image}>
-              <img
-                src={image1}
-                alt="sewing machine vector"
-                className={styles.image}
-              />
-            </div>
-          </div>
-
+            <div className={styles.image} style={{ backgroundImage: `url(${image3})` }} ></div>
+          </div ></Fade>
+        <Fade right>
           <div className={styles.container}>
-            <div className={styles.imageBox}>
-              <img
-                src={image1}
-                alt="sewing machine vector"
-                className={styles.image}
-              />
+            <div className={styles.image} style={{ backgroundImage: `url(${image2})` }} ></div>
+            <div className={`${styles.info} ${styles.right}`}>
+              <h3 className={styles.title}>
+                custom
+          </h3>
+              <p className={styles.first}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+              <p>Magna fugiat do deserunt veniam culpa sunt excepteur mollit nisi ea laborum. In ut consectetur ut esse cillum excepteur officia ea. Non et laboris sit non aliqua cillum adipisicing tempor labore ex enim aliquip sint aute.</p>
             </div>
+
+          </div >
+        </Fade>
+        <Fade left>
+          <div className={styles.container}>
             <div className={styles.info}>
-              <h1>3D Cad Design</h1>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                augue ipsum, euismod quis massa eu, aliquet faucibus risus. Nullam
-                bibendum dapibus nibh, ut pellentesque libero posuere sed. Sed a
-                justo id justo dapibus condimentum nec vitae nibh. Praesent
-                luctus, odio in ornare lobortis, augue leo efficitur metus, id
-                porttitor ligula lacus nec arcu. Nullam fringilla, massa in mollis
-                sodales, ipsum sapien iaculis erat, in facilisis tellus metus id
-                purus. In in risus et nisi tempor porta. Proin id sem ut metus
-                lobortis euismod. Suspendisse potenti. Ut ac turpis eros. Mauris
-                varius at sem eu lobortis. Sed sollicitudin a magna et vestibulum.
-                Nam aliquet quis dui vitae egestas. Aenean cursus mauris vitae est
-                eleifend placerat. Duis in facilisis odio, ac mollis magna.
-                Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                Vestibulum eu leo mauris. Morbi eu sapien odio. Maecenas justo
-                libero, rhoncus et pharetra id, porttitor et leo. Nulla vel
-                eleifend elit. Aenean et diam gravida, convallis ante et, bibendum
-                est. Praesent consequat leo non accumsan viverra. Etiam hendrerit
-                convallis urna vitae tempus. Orci varius natoque penatibus et
-                magnis dis parturient montes, nascetur ridiculus mus.
-            </span>
+              <h3 className={styles.title} style={{ textTransform: 'uppercase' }}>
+                3d cad
+          </h3>
+              <p className={styles.first}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+              <p>Magna fugiat do deserunt veniam culpa sunt excepteur mollit nisi ea laborum. In ut consectetur ut esse cillum excepteur officia ea. Non et laboris sit non aliqua cillum adipisicing tempor labore ex enim aliquip sint aute.</p>
             </div>
-          </div>
-        </section>
-      </Fade>
+            <div className={styles.image} style={{ backgroundImage: `url(${image4})` }} ></div>
+          </div >
+        </Fade>
+      </div>
     </Layout>
   )
 }

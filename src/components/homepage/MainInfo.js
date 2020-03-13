@@ -7,6 +7,7 @@ import styles from "./maininfo.module.css"
 const MainInfo = () => {
   return (
     <div className={styles.container}>
+      <a id="#about"></a>
       <div className={styles.containerInfo}>
         <div className={styles.info}>
           <header className={styles.title}>About us</header>
@@ -26,7 +27,7 @@ const MainInfo = () => {
             needs, we are here to help! We pride ourselves in our long history
             of providing our customers with top of the line products and
             services. Quality and consistency are our highest priorities and we
-            strive to ensure client satisfaction with short lead times. 
+            strive to ensure client satisfaction with short lead times.
           </p>
           <p className={styles.subText}>
             We are also happy to now offer ___ with top of the line 3D CAD

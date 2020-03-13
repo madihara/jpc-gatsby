@@ -30,7 +30,7 @@ const capabilities = () => {
       </LazyHero>
       <Fade right>
         <div className={styles.container}>
-          <Tabs defaultIndex={0} onSelect={index => console.log(index)}>
+          <Tabs defaultIndex={0} className={styles.reactTabs} onSelect={index => console.log(index)}>
             <TabList>
               <Tab>Single Lock Stitching</Tab>
               <Tab>Double Lock Stitching</Tab>
@@ -46,11 +46,11 @@ const capabilities = () => {
                 <li> thing 3</li>
               </ul>
             </TabPanel>
-            <TabPanel className={styles.panel2}>Goodbye</TabPanel>
-            <TabPanel className={styles.panel2}>3</TabPanel>
-            <TabPanel className={styles.panel2}>4</TabPanel>
-            <TabPanel className={styles.panel2}>5</TabPanel>
-            <TabPanel className={styles.panel2}>6</TabPanel>
+            <TabPanel className={styles.panel}>Goodbye</TabPanel>
+            <TabPanel className={styles.panel}>3</TabPanel>
+            <TabPanel className={styles.panel}>4</TabPanel>
+            <TabPanel className={styles.panel}>5</TabPanel>
+            <TabPanel className={styles.panel}>6</TabPanel>
           </Tabs>
         </div>
       </Fade>
